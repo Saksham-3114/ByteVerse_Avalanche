@@ -12,6 +12,7 @@ body{
 .logo{
     width: 150px;
     cursor: pointer;
+    margin-top:70px;
 }
 .content{
     width:100%;
@@ -60,5 +61,5 @@ button:hover span{
     width: 100%;
 }
 button:hover{
-    border: none;
+   
 }
