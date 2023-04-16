@@ -4,6 +4,9 @@ body{
     background-size:100% 100%;
     background-image:url(/main_student_page/background1.png);
 }
+a{
+    text-decoration: none;
+}
 #heading{
     position: relative;
     height:30px;

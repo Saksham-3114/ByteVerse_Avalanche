@@ -1,0 +1,88 @@
+#heading{
+    position: relative;
+    height:30px;
+    padding:5px;
+    padding-top:10px;
+    padding-right:25px;
+    display:flex;
+    justify-content: right;
+}
+.logo{
+    position: absolute;
+    margin-top: -10px;
+    right:95%;
+    align-items: flex-start;
+    height:250px;
+    width:auto;
+}
+.tag{
+    position: absolute;
+    margin-top: -4px;
+    right:82.5%;
+    align-items: flex-start;
+    height:250px;
+    width:auto;
+    font-size:30px;
+}
+#blu{
+    color:rgb(0, 146, 251);
+}
+.topicon{
+    margin:0px 0px 0px 50px;
+    font-size:large;
+}
+#a{
+    color:black;
+}
+#a:hover{
+    width:70px;
+    height:35px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+#hs{
+    color:black;
+}
+#hs:hover{
+    width:150px;
+    height:35px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+#th{
+    color:black;
+}
+#th:hover{
+    width:130px;
+    height:35px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+#e{
+    color:black;
+}
+#e:hover{
+    width:100px;
+    height:35px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+a{
+    text-decoration: none;
+}

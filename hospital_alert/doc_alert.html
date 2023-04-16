@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alert_Page</title>
+    <title>Alert</title>
     <link rel="stylesheet" href="doc_alert.css">
 </head>
 <body >
-    <h1>ALERT</h1>
+    <h1 style="color:rgb(254, 136, 0); text-decoration: underline;">ALERT</h1>
     <form style="border: 1px solid black; padding:20px":1px solid black>
     
     <div class="disease">
-        <b>Diseases name <b>
-        <input type="text">
+        <b>Disease name:<b>
+        <input id="box1" placeholder="write disease name..." type="text" required>
     </div> 
     <br>
-    <div class="advice"><b>Advisory</b>
-        <input type="text"></div>
+    <div class="advice"><b>Advisory:</b>
+        <input id="box2" placeholder="symptoms and guidelines...." type="text" required></div>
+    <div>
+        <input style="margin-left:230px;margin-top:20px" type="submit" value="Send" >
+    </div>
     </form>
     
 </body>
