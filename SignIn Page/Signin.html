@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SignUp</title>
-    <link rel="stylesheet" href="Signup.css">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="Signin.css">
 </head>
 <body>
 <div style="display: flex; flex-direction: row; justify-content: left; align-items: center;">
@@ -18,19 +18,21 @@
         <h1>Welcome</h1>
         Let's get started with your ultimate experience.
         <br><br><br>
+        
         <div class="credentials">
-            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Name" required>
             <br>
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email" required>
             <br>
-            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Password" required>
         </div>
-        <br><br><br>
+        <br><br>
         <div class="buttons">
-            <button type="submit"><strong>Sign In</strong></button>
+            <a href="/main_student_page/frame1.html"><button type="submit"><strong>Sign In</strong></button></a>
             <br><br>
+    
             <button type="submit" style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
-                <img style="margin-left: -7px;" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png">
+                <img style="margin-left:-7px;" src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png">
                 &nbsp; <strong>Sign In with Google</strong>
             </button>
             <br>
@@ -39,6 +41,7 @@
                 <strong>Sign In with Facebook</strong>
             </button>
         </div>
+        
         <br>
         <p style="text-align: center;">Do not have an account?
         <a href="Login.html">Sign Up</a></p>
