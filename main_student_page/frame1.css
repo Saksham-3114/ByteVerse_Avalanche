@@ -1,0 +1,230 @@
+body{
+    height:200vh;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    background-image:url(/main_student_page/background1.png);
+}
+#heading{
+    position: relative;
+    height:30px;
+    padding:5px;
+    padding-top:10px;
+    padding-right:25px;
+    display:flex;
+    justify-content: right;
+}
+.logo{
+    position: absolute;
+    margin-top: -10px;
+    right:95%;
+    align-items: flex-start;
+    height:250px;
+    width:auto;
+}
+.tag{
+    position: absolute;
+    margin-top: -4px;
+    right:82.5%;
+    align-items: flex-start;
+    height:250px;
+    width:auto;
+    font-size:30px;
+}
+#blu{
+    color:rgb(0, 146, 251);
+}
+.topicon{
+    margin:0px 0px 0px 50px;
+    font-size:large;
+}
+#a:hover{
+    width:70px;
+    height:35px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+#hs:hover{
+    width:150px;
+    height:35px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+#th:hover{
+    width:130px;
+    height:35px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+#e:hover{
+    width:100px;
+    height:35px;
+    background-color: black;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:15px;
+}
+#fir_block{
+    font-size: 50px;
+    text-align: center;
+    margin-top:20px;
+}
+#l2{
+    border:0.1px solid rgba(0, 0, 0, 0.436);
+    height:0px;
+    width:80%;
+    margin-left:150px;
+
+}
+#sec_block{
+    height:330px;
+    
+
+}
+#userphoto{
+    border:1px solid black;
+    height:200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left:200px;
+    margin-top:20px;
+    background-image: url(/main_student_page/chris_future_thor.jpg);
+    background-size: 100% 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.353);
+}
+#details{
+    display:flex;
+    
+}
+#info{
+    padding:25px;
+    background-color: rgba(0, 221, 255, 0.192);
+    border-radius:40px;
+    width:700px;
+    margin-left:50px;
+    margin-top: 20px;
+    font-size: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.353);
+}
+#message{
+    height:50px;
+    width:170px;
+    font-size:18px;
+    margin-left:500px;
+    margin-top:20px;
+    background-color: rgb(0, 247, 148);
+    border:0.1px;
+    border-radius: 500px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.353);
+}
+#message:hover{
+    background-color: rgb(103, 247, 189);
+}
+#Inbox{
+    height: 50px;
+    width:150px;
+    font-size:18px;
+    background-color: rgb(247, 0, 136);
+    border:0px;
+    margin-left:20px;
+    border-radius: 500px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.353);
+}   
+#Inbox:hover{
+    background-color: rgb(250, 92, 179);
+}
+#poll{
+    height: 50px;
+    width:150px;
+    font-size:18px;
+    background-color: rgb(255, 162, 0);
+    border:0px;
+    margin-left:20px;
+    border-radius: 500px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.353);
+}
+#poll:hover{
+    background-color: rgb(246, 193, 101);
+}
+#content{
+    display:flex;
+}
+#alert_box{
+    border:1px solid black;
+    height:600px;
+    width:38%;
+    margin-left:150px;
+    margin-top:50px;
+    padding:20px;
+}
+
+#guidelines_box{
+    border:1px solid black;
+    height:600px;
+    width:40%;
+    margin-left:20px;
+    margin-top:50px;
+    padding:20px;
+}
+.content_h{
+    display:flex;
+    justify-content: center;
+    color:rgb(229, 135, 4);
+    font-size:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#endl{
+    margin-bottom:20px;
+}
+#endl2{
+    margin-top:20px;
+}
+#fi{
+    height:50px;
+    width:auto;
+    margin-left:1050px;
+    margin-top:50px;
+}
+#xi{
+    height:50px;
+    width:auto;
+    margin-top:50px;
+}
+#non{
+    display: flex;
+}
+#end{
+    margin-top:38px;
+    padding:20px;
+    width:1460px;
+    height:200px;
+    background-color: black;
+    color:white;
+}
