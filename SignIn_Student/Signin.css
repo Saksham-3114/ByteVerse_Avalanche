@@ -1,0 +1,66 @@
+body{
+    background-image: url(bgcolor.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.asd{
+    margin-left: 100px;
+    margin-top: 50px;
+    width:fit-content;
+    border: 2px solid black;
+    padding: 10px 50px;
+}
+#logo{
+    height: 50px;
+    width: auto;
+    margin: 10px 0px;
+    
+}
+button img{
+    height: 35px;
+    width:auto;
+    margin: 5px 5px;
+}
+.credentials input{
+    margin: 10px 10px 10px 0px;
+    border-bottom: 2px solid black;
+    border-top: none; border-right: none; border-left: none;
+    height: 30px;
+    width: 300px;
+    background: none;
+}
+.buttons button{
+    border-color: rgb(153, 153, 153);
+    text-align: center;
+    background: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+}
+.buttons button:hover{
+    background-color: black;
+    color: white;
+}
+p{
+    margin: none;
+}
+.pic img{
+    
+    margin: 100px 0px 100px 300px;
+    height: 500px;
+    width: auto;
+}
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:cadetblue;
+}
+a:hover{
+    color: darkslategray;
+    border-bottom: 1px;
+}
+a:active{
+    color: black;
+}
