@@ -1,55 +1,104 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
-    <link rel="stylesheet" href="/prescription/track.css">
-        <style type="text/css">
-            #reg{ border:5px solid #a495c2 ;
-                background-color: rgb(231, 78, 13);
-                position:relative;
-                width: 600px;;
-                height:600px;   }
-                
-                body{
-                    background-image: url(/main_student_page/background1.png);
-                    background-repeat: no-repeat;
-                    background-attachment: fixed;
-                    background-size:100% 100%;
+    <title>Document</title>
+    <link rel="stylesheet" href="track.css">
+    <style type="text/css">
+        #reg {
+            border: 5px solid #a495c2;
+            background-color: rgb(8, 241, 148);
+            position: relative;
+            width: 600px;
+            margin-left:450px;
+            margin-top: 30px;
+            height: 600px;
+        }
 
-                }
-        </style>      
+        body {
+            background-image: url(/main_student_page/background1.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+        }
+    </style>
 </head>
-<div id="heading">
-    <img src="/main_student_page/logo.png " class="logo">
-    <span class="tag">College<span id="blu">Raksha</span></span>
-    <span class="topicon" id="a">Alert</span>
-    <a href="/hospital_alert/hos.html"><span class="topicon" id="hs">Hospital schedule</span></a>
-    <a href="/prescription/track.html"><span class="topicon" id="th">Track History</span></a>
-    <span class="topicon" id="e">Emergency</span>
-</div>
-<hr>
-    <body bgcolor="white" text="aqua" align="center">
-        <center><div id="reg">
-    <table width= "100%"  height="5%"  "cellpadding="5"  cellspacing="2" margin-top:500px;> 
-        <tr bgcolor="blue"><font size="10"> <td colspan="10"><h1><pre><img src="/prescription/logo4.png" align="left" height="50px" width="auto">CollegeRaksha</pre></h1></td></font></tr>
-        <tr ><td align="right" ></td> <td><input type="text"placeholder="Name..." ></td></tr>
-        
-        <tr><td align="right"></td> <td><input type="text" placeholder="Age/Sex"></td></tr>
-        
-        <tr><td align="right"></td> <td><input type="text" placeholder="Blood group &RH"></td></tr>
-        
-        <tr><td align="right"></td> <td><input type="text" placeholder="Department"></td></tr>
-        <tr><td align="right"></td> <td><input type="text" placeholder="Roll NO."></td></tr>
 
-    <tr><td align="right"></td> <td><textarea name="Message"placeholder="Family History"></textarea></td></tr>
-    <tr><td align="right"></td> <td><textarea name="Message"placeholder="Personal History"></textarea></td></tr>
-    <tr><td align="right"></td> <td><textarea name="Message"placeholder="Medical/Surgical History"></textarea></td></tr>
-    <tr><td align="right"></td> <td><textarea name="Message"placeholder="Drug History/Allergy"></textarea></td></tr>
+<body align="center">
+    <div id="heading">
+        <img src="/main_student_page/logo.png " class="logo">
+        <a href="/main_student_page/frame1.html"><span class="tag">College<span id="blu">Raksha</span></span></a>
+        <a href="/hospital_alert/doc_alert.html"><span class="topicon" id="a">Alert</span></a>
+        <a href="/hospital_alert/hos.html"><span class="topicon" id="hs">Hospital schedule</span></a>
+        <a href="/prescription/track.html"><span class="topicon" id="th">Track History</span></a>
+        <a href="/Emergency_page/emer.html"><span class="topicon" id="e">Emergency</span></a>
     </div>
+    <hr>
+    <div id="reg">
+        <table width="100%">
+            <center>
+                <tr style="background-color:rgb(255, 115, 0)">
+                    
+                        <td colspan="30">
+                            <span style="display:flex";>
+                            <img style="margin-left:130px;" src="History.png" align="center" height="125px" width="auto">
+                            <h1>
+                                <pre style="color:white;margin-left:20px;text-decoration: underline;">Track <span style="color:aqua">History</span></pre>
+                            </h1>
+                            </span>
+                        </td>
+                
+                </tr>
+                <tr >
+                    <td align="right"></td>
+                    <td><input class="" type="text" placeholder="Name..."></td>
+                </tr>
 
+                <tr>
+                    <td align="right"></td>
+                    <td><input type="text" placeholder="Age/Sex"></td>
+                </tr>
+
+                <tr>
+                    <td align="right"></td>
+                    <td><input type="text" placeholder="Blood group &RH"></td>
+                </tr>
+
+                <tr>
+                    <td align="right"></td>
+                    <td><input type="text" placeholder="Department"></td>
+                </tr>
+                <tr>
+                    <td align="right"></td>
+                    <td><input type="text" placeholder="Roll NO."></td>
+                </tr>
+
+                <tr>
+                    <td align="right"></td>
+                    <td><textarea name="Message" placeholder="Family History"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="right"></td>
+                    <td><textarea name="Message" placeholder="Personal History"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="right"></td>
+                    <td><textarea name="Message" placeholder="Medical/Surgical History"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="right"></td>
+                    <td><textarea name="Message" placeholder="Drug History/Allergy"></textarea></td>
+                </tr>
+
+            
+            </center>
+    </div>
+    </table>
+    <button class="button-29" role="button" onclick="window.location.href = 'track1.html';">My medical Booklet</button>
 </body>
+
 </html>

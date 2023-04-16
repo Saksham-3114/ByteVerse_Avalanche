@@ -1,3 +1,8 @@
+#head{
+    margin-left:550px;
+    margin-top:150px;
+    margin-bottom: -100px;
+}
 body{
     background-image: url(bgcolor.jpg);
     background-repeat: no-repeat;
