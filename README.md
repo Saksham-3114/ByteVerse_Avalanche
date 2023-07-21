@@ -7,6 +7,7 @@ Team Members: Saksham Singhal
  
  Video Link : https://drive.google.com/drive/folders/1GGUADxQN7zDgMWQphTtGc97-I0oMNKjO
 
+Web Hosted link through github pages: https://divyansh12git.github.io/ByteVerse_Avalanche/
 
 
 
