@@ -4,12 +4,9 @@ Team Members: Saksham Singhal
               Hitesh Parmar
               Shakti Prasanna Mohapatra
  
- 
- Video Link : https://drive.google.com/drive/folders/1GGUADxQN7zDgMWQphTtGc97-I0oMNKjO
+  Video Link : https://drive.google.com/drive/folders/1GGUADxQN7zDgMWQphTtGc97-I0oMNKjO
+
+****
 
 Web Hosted link through github pages: https://divyansh12git.github.io/ByteVerse_Avalanche/
 
-
-
-######   Note:-
-                our first frame is "ask.html" in "Signup_Page" from which further files are linked.
