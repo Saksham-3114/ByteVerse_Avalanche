@@ -10,3 +10,6 @@ Team Members: Saksham Singhal
 
 Web Hosted link through github pages: https://divyansh12git.github.io/ByteVerse_Avalanche/
 
+****
+main page to run through Live Server: index.html
+
