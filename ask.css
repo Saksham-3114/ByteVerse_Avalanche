@@ -1,0 +1,35 @@
+#head{
+    margin-left:550px;
+    margin-top:150px;
+    margin-bottom: -100px;
+}
+body{
+    background-image: url(bgcolor.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#logo{
+    height: 50px;
+    width: auto;
+    margin: 10px 0px;
+    
+}
+.qwe button{
+    border-color: rgb(153, 153, 153);
+    text-align: center;
+    background: none;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.qwe button:hover{
+    background-color: rgb(4, 80, 156);
+    color: white;
+}
+.qwe{
+    border: 2px solid rgb(4, 80, 156);
+    width: fit-content;
+    padding: 10px;
+    margin: 155px;
+}
